@@ -1,3 +1,5 @@
+#!/bin/bash
+## PUBLIC DOMAIN, NO WARRANTY AT ALL, USAGE AT YOUR OWŃ RISK!
 REQUESTV="5.5"
 
 V1=`wget -q -O - http://php.net/downloads.php | grep "PHP ${REQUESTV}"|grep "Changelog"`
